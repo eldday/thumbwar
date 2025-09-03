@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Thumb War Online</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>Thumb War Online</h1>
+    <div class="room">
+      <input id="room" type="text" placeholder="Room Code" maxlength="10">
+      <button id="join">Join</button>
+    </div>
+  </header>
+
+  <div id="thumbSelector">
+    <img src="thumbs/thumb1.png" class="thumbOption" data-thumb="thumb1.png">
+    <img src="thumbs/thumb2.png" class="thumbOption" data-thumb="thumb2.png">
+    <img src="thumbs/thumb3.png" class="thumbOption" data-thumb="thumb3.png">
+  </div>
+
+  <div class="game-area">
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+    <div class="badge hide" id="badge"></div>
+    <div class="centerBanner hide" id="banner"></div>
+  </div>
+
+  <footer>
+    <div id="lobby">Select your thumb to join the game.</div>
+    <div class="controls">Use arrow keys/WASD + Space</div>
+  </footer>
+</div>
+
+<!-- Mobile Controls -->
+<div id="mobile-controls">
+  <div id="raise-btn" class="mobile-btn">RAISE</div>
+  <div id="joystick" class="joystick">
+    <div id="joystick-knob"></div>
+  </div>
+</div>
+
+<button id="rematch" class="hide">Rematch</button>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
