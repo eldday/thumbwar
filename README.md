@@ -5,14 +5,18 @@ The game is mobile friendly, real-time, approximates a real thumb-war.
 
 ---
 
+# PlayNow on my Demo Server!!
+
 ![Thumbwar-Online](thumbwar-ONLINE.png)
 
 ----
 
+# Thumbwar on a Mobile Device
 ![Thumbwar-Online Mobile](thumbwar-mobile.jpg)
 
 ----
 
+# Thumbwar on a PC Browser
 ![Thumbwar-Online PC](PC-thumb-war.png)
 
 ----
