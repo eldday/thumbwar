@@ -13,6 +13,10 @@ The game is mobile friendly, real-time, approximates a real thumb-war.
 
 ----
 
+![Thumbwar-Online PC](PC-thumb-war.png)
+
+----
+
 * [ ] Suports up to 3 players per session 
 * [ ] Mobile On-Screen controls 
 * [ ] Keyboard controls supported
