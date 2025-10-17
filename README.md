@@ -7,6 +7,8 @@ The game is mobile friendly, real-time, approximates a real thumb-war.
 
 ![Thumbwar-Online](thumbwar-ONLINE.png)
 
+
+![Thumbwar-Online Mobile](thumbwar-mobile.jpg)
 ----
 
 * [ ] Suports up to 3 players per session 
