@@ -1,7 +1,27 @@
 # Thumb-War-Online
-A simple node based game that lets 2-3 people have a thumbwar. The game is mobile friendly, realtime, and approximates a real thumb-war.
-Using the mobile controls players attempt to position their thumb on top of other player thumbs by using the Raise/Pin button to lift and hold their thumb down.
+A simple node based game that lets 2-3 people have a thumbwar. 
 
-> #### @icon-info-circle
+The game is mobile friendly, real-time, approximates a real thumb-war.
+
+---
 
 ![Thumbwar-Online](thumbwar-ONLINE.png)
+
+----
+
+* [ ] Suports up to 3 players per session 
+* [ ] Mobile On-Screen controls 
+* [ ] Keyboard controls supported
+* [ ] Uses the concept of "Rooms" to allow concurrent game sessions via websockets.
+
+
+
+Technologies Used
+
+----
+
+> * Node
+> * Javascript
+> * HTML
+
+----
